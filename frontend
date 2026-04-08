@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frontend</title>
+</head>
+<body>
+  <h1>Frontend Running</h1>
+
+  <script>
+    fetch("http://localhost:8000")
+      .then(res => res.json())
+      .then(data => console.log(data));
+  </script>
+</body>
+</html>
